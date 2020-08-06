@@ -5,7 +5,19 @@
   "author": "samilsalman12@gmail.com",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint ."
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "@babel/core": "^7.8.7",
+    "@babel/runtime": "^7.8.7",
+    "babel-jest": "^25.1.0",
+    "@react-native-community/eslint-config": "^0.0.7",
+    "eslint": "^6.8.0"
+  }
 }
